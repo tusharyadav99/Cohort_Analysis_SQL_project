@@ -67,7 +67,7 @@ Visualization:
 
 - **Revenue per customer peaked** around 2016–2017 (~**$2.9k** per customer) and has **declined in recent cohorts**.  
 - Mean revenue per customer for **2015–2019 ≈ $2,776** vs **2020–2024 ≈ $2,289**, a **~18% decline** in per-customer value for newer cohorts.
-- **2022** had the **largest customer base** (9,010) and high total revenue (~**$21.5M**), but **lower revenue per customer (~$2,387**), indicating growth in customer count without commensurate per-customer value.
+- **2022** had the **largest customer base** (9,010) and high total revenue (\~**$21.5M**), but **lower revenue per customer (~$2,387)**, indicating growth in customer count without commensurate per-customer value.
 
 **Business Insights:**
 
