@@ -29,6 +29,21 @@ Visualization:
 
 *Note: sample visualization generated from `Extracted_data/01_customer_segmentation.csv`.*
 
+---
+
+**Key Findings:**
+
+- **High-value** segment (25% of customers — **12,372**) drives **~65.6%** of total revenue (~**$135.4M**).
+- **Mid-value** segment (50% — **24,743**) contributes **~32.3%** of revenue (~**$66.6M**).
+- **Low-value** segment (25% — **12,372**) contributes **~2.1%** of revenue (~**$4.34M**).
+- Average LTV by segment: **High ≈ $10,946**, **Mid ≈ $2,693**, **Low ≈ $351**.
+
+**Business Insights:**
+
+- **Prioritize high-LTV customers** with VIP/loyalty programs and personalized retention offers — they deliver the majority of revenue. ✅
+- **Upsell and upgrade mid-value customers** through targeted promotions to move them into the high-value tier (large upside given size of mid segment). 🔧
+- **Re-engage and optimize offers for low-value customers** with price-sensitive and frequency-driving campaigns to improve purchase behavior. 💡
+
 > Notes: Update the findings section after running `01_customer_segmentation.sql` on your database to include segment sizes and revenue shares.
 
 ---
@@ -46,6 +61,20 @@ Visualization:
 
 *Note: sample visualization generated from `Extracted_data/02_cohort_analysis.csv`.*
 
+---
+
+**Key Findings:**
+
+- **Revenue per customer peaked** around 2016–2017 (~**$2.9k** per customer) and has **declined in recent cohorts**.  
+- Mean revenue per customer for **2015–2019 ≈ $2,776** vs **2020–2024 ≈ $2,289**, a **~18% decline** in per-customer value for newer cohorts.
+- **2022** had the **largest customer base** (9,010) and high total revenue (~**$21.5M**), but **lower revenue per customer (~$2,387**), indicating growth in customer count without commensurate per-customer value.
+
+**Business Insights:**
+
+- **Investigate acquisition channels and product mix** for 2020–2024 cohorts to understand why per-customer value is falling (e.g., cheaper customers, promotions, channel shifts). 🔎
+- **Stabilize revenue via loyalty/subscription offers** and targeted retention incentives for weaker cohorts. 🔧
+- **Target re-engagement campaigns** to cohorts with falling per-customer revenue to recover value and test acquisition optimizations. 💡
+
 > Notes: Cohort-level trends can highlight whether newer customers are less valuable or declining in retention.
 
 ---
@@ -62,6 +91,19 @@ Visualization:
 ![Cohort Retention: Active vs Churned](images/3_customer_churn_cohort_year.png)
 
 *Note: sample visualization generated from `Extracted_data/03_retention_analysis.csv`.*
+
+---
+
+**Key Findings:**
+
+- **Retention is low**: cohorts show **~8–10% active** customers and **~90% churn** long-term across cohorts. 🔻
+- Recent cohorts (2022–2023) show **~10% active**, slightly better but still low overall.
+
+**Business Insights:**
+
+- **Improve early-stage engagement (first 1–2 years)** with onboarding incentives, loyalty rewards, and timely communication to raise long-term retention. ✅
+- **Prioritize win-back strategies for high-value churned customers** (higher ROI than broad reactivation). 🔧
+- **Implement churn prediction and early intervention** for at-risk customers to reduce long-run churn rates. 💡
 
 > Notes: Use segmentation + retention insights to prioritize reactivation and loyalty strategies.
 
